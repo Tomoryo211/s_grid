@@ -5,9 +5,12 @@ html{
     font-size: 62.5%;
 }
 .body{
-    
+    height: 100%;
 }
 
+span{
+    font-weight: bold;
+}
 ul{
     list-style: none;
     display: flex;
@@ -17,8 +20,8 @@ ul{
 p{
 
 }
-.wrapper{
-    max-width: 1120px;
+.Wrapper{
+    max-width: 1611px;
     margin: 30px auto 0;
 }
 header{
@@ -47,24 +50,50 @@ header{
 }
 .main_title{
     position: absolute;
-    right: 10%;
+    right: 5%;
     margin-top: 10px;
     writing-mode: vertical-rl; 
     font-size: 30px;
     font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", serif;
 }
 .main_comment{
-    font-size: 12px;
-    padding-left: 30%;
-}
-.main_release > p{
-    font-size: 15px;
-    border: solid 1px yellow;
+    font-size: 14px;
+    margin-right: 10%;
+    margin-top: 5%;
+
 }
 .main_element {
-    width: 1240px;   
+    width: 1220px;   
     height: 860px;  
     border: 1px solid #eaeaea; 
 }
-
+.main_release > p{
+    font-size: 13px;
+    /* border: solid 1px yellow; */
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", serif;
+    margin-left: 5%;
+    margin: 40px;
+    border-bottom: #eaeaea;
+}
+.content_Wrap > p{
+    color: #eaeaea;
+    margin-left: 40px;
+    margin-bottom: 120px;
+}
+.content_title{
+    display: flex;
+    justify-content: space-between;
+}
+.content_title > h2{
+    font-size: 40px;
+    /* margin-left: 40px; */
+}
+.content_title > p{
+    font-size: 20px;
+    margin-top: 8%;
+}
+.content_main{
+    display: flex;
+    flex-direction: column;
+}
 
